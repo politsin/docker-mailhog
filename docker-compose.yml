@@ -1,6 +1,6 @@
 docker-mailhog :
  image: mailhog/mailhog
- container_name: mailhog
+ container_name: docker-mailhog
  hostname: mailhog
  restart: always
  ports:
