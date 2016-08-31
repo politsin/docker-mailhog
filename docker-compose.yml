@@ -1,0 +1,10 @@
+docker-mailhog :
+ image: mailhog/mailhog
+ container_name: mailhog
+ hostname: mailhog
+ restart: always
+ ports:
+  - "1025:1025"
+  - "1026:8025"
+
+
